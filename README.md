@@ -7,3 +7,8 @@
 
 ## Flutter Youtube Kanalı:
 * https://www.youtube.com/@flutterdev
+
+
+
+Hafta 3 Anlatım:
+https://www.notion.so/Hafta-3-Kullan-c-Etkile-imi-ve-Temel-Aray-z-Elemanlar-28b4dab0fd2380e4aff5c460c75bb720?source=copy_link
