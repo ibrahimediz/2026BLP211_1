@@ -29,4 +29,5 @@
    * Erişilebilir Kaynaklar:
         1. **Flutter'da Navigasyon (Resmi Doküman):** https://docs.flutter.dev/ui/navigation
         2. **Stateful ve Stateless Widget'lar (Video):** https://www.youtube.com/watch?v=pSZA_b9jVfA
-        3. Anlatım : https://www.notion.so/Hafta-4-State-Management-Durum-Y-netimi-28b4dab0fd2380b496b2ca1ab37d5778?source=copy_link
+        3. Durum Yönetimi - Anlatım : https://www.notion.so/Hafta-4-State-Management-Durum-Y-netimi-28b4dab0fd2380b496b2ca1ab37d5778?source=copy_link
+        4. Navigasyon - Anlatım : https://www.notion.so/Hafta-4-2-Navigasyon-ve-Routing-2a04dab0fd238089babaf7eeb316d8af?source=copy_link
