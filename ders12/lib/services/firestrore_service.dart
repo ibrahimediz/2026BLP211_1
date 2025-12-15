@@ -1,19 +1,18 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class FirestoreService {
-  // TODO: Koleksiyon referansı derste tanımlanacak
   // final CollectionReference _ref = FirebaseFirestore.instance.collection('items');
-
+  final CollectionReference _productsRef = FirebaseFirestore.instance
+      .collection('products');
   Future<void> addItem(Map<String, dynamic> data) async {
-    // TODO: Firebase ekleme kodu
+    await _productsRef.add(data);
   }
 
   Future<void> deleteItem(String id) async {
-    // TODO: Firebase silme kodu
+    await _productsRef.doc(id).delete();
   }
 
   Stream<QuerySnapshot> getDataStream() {
-    // TODO: Firebase veri dinleme kodu
-    throw UnimplementedError(); // Geçici hata fırlatıcı
+    return _productsRef.orderBy('price', descending: false).snapshots();
   }
 }

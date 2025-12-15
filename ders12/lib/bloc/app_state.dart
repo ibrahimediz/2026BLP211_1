@@ -1,10 +1,12 @@
-part of 'app_bloc.dart';
+abstract class AppState {}
 
-sealed class AppState extends Equatable {
-  const AppState();
-  
-  @override
-  List<Object> get props => [];
+class AppInitial extends AppState {}
+
+class AppLoading extends AppState {}
+
+class AppSuccess extends AppState {}
+
+class AppError extends AppState {
+  final String message;
+  AppError(this.message);
 }
-
-final class AppInitial extends AppState {}
